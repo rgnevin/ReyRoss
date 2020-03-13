@@ -95,9 +95,6 @@ a{
   -o-transition: all 1s ease;
   transition: all 1s ease;
 }
-@keyframes{
-
-}
 
 iframe{
   justify-content: center;

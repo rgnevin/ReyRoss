@@ -10,8 +10,8 @@ app.get("/", function(req,res){
     res.sendFile(path.join(__dirname+'/RRHome.html'));
 });
 
-// app.listen(3000, function(req,res){
-//     console.log("server started");
-// });
+app.listen(3000, function(req,res){
+    console.log("server started");
+});
 
-app.listen(process.env.PORT, process.env.IP);
+// app.listen(process.env.PORT, process.env.IP);
